@@ -1,0 +1,117 @@
+body{
+    background: #eee;
+    /* background-image: url(assets/images/cheap_diagonal_fabric.png); */
+    /* background-repeat: repeat; */
+}
+
+header{
+    /* float:left; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    margin: 0;
+    background: white;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+}
+
+.navBar{
+    /* float: left; */
+    width: 960px;
+    margin: 0 auto;
+    /* position: relative; */
+}
+
+.name{
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+}
+
+.button{
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper{ 
+    position: relative;
+    top: 150px;
+    clear: both;
+    overflow: auto;
+    width: 900px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    background:#ffffff;
+    border: 1px solid #cccccc;
+    font-size: 20px;
+    color: #4aaaa5;
+}
+
+.content{
+    /* float: left; */
+    font-size: 15px;
+    line-height: 20px;
+    color: #777777;
+    padding: 20px;
+    border-top: 2px solid #cccccc;
+
+
+}
+
+.inputName{
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.inputMessage{
+    width: 70%;
+    height: 200px;
+    margin-bottom: 10px;
+
+}
+
+.portfolioImage{
+    background: black;
+    width: 33%;
+    height: 33%
+    float: left;
+}
+
+.imgDiv{
+    width: 32%;
+    float: left;
+    margin: 5px;
+    position: relative;
+}
+
+.aboutImage{
+    float: left;
+    margin-right: 15px;
+}
+.img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.imgText{
+    position: absolute;
+    text-align: center;
+    color: white;
+    background: #4aaaa5;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
